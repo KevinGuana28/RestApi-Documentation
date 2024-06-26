@@ -35,3 +35,6 @@ In the real world, when we visit a website – we hit its homepage. The homepage
 Like a human’s interaction with a website, a REST client hits an initial API URI and uses the server-provided links to access the resources it needs and discover available actions dynamically.
 The client need not have prior knowledge of the service or the different steps involved in a workflow. Additionally, the clients no longer have to hardcode the URI structures for various resources. HATEOAS allows the server to make URI changes as the API evolves without breaking the clients.
 Above API interaction is possible using HATEOAS only.
+
+Gupta, L. (2023, November 4). RestFulapi. Retrieved from https://restfulapi.net/hateoas/
+
