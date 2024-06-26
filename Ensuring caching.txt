@@ -1,0 +1,11 @@
+Ensuring Caching
+
+Caching in computing involves using a high-speed storage layer to store a portion of data temporarily, 
+enabling quicker access for future requests compared to accessing the primary storage directly. This 
+method efficiently recycles previously fetched or processed data. Typically, cached data resides on 
+fast-access hardware like RAM and often integrates with software. The primary goal is to enhance data 
+retrieval speed by minimizing reliance on slower underlying storage systems. Unlike databases that store 
+complete and long-lasting elements, caches trade storage capacity for performance by holding a transient 
+subset of data.
+
+Amazon. (2023). AWS AMAZON. Retrieved from https://aws.amazon.com/es/caching/

@@ -26,3 +26,5 @@ authorization, rate limiting, and logging in a centralized manner.
 and respond to security incidents promptly. Continuously monitor for unusual API activity and potential attacks.
 8)Regularly audit and test: Conduct systematic security audits and penetration testing to pinpoint weaknesses and vulnerabilities. 
 Promptly address any issues identified.
+
+ballejos, L. (17 de JUNE de 2024). ninjaOne. Obtenido de https://www.ninjaone.com/blog/8-best-practices-for-securing-apis/#:~:text=Implement%20authentication%20methods%3A%20Implement%20authentication,it%20from%20eavesdropping%20and%20tampering.
