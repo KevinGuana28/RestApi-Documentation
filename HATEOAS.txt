@@ -1,0 +1,26 @@
+HATEOAS
+
+HATEOAS (Hypermedia as the Engine of Application State) is a constraint of the REST application architecture. HATEOAS distinguishes the REST style from most other network application architectures.
+The term "hypermedia" refers to any content that includes links to other media types such as images, videos, and text.
+The REST architectural style allows us to use hypermedia links within the API response content. This enables the client to dynamically navigate to the relevant resources by following the hypermedia links.
+Navigating hypermedia links is conceptually similar to browsing web pages by clicking on relevant hyperlinks to reach a final goal.
+For example, the given below JSON response may be from an API like HTTP GET http://api.domain.com/management/departments/10
+
+{
+    "departmentId": 10,
+    "departmentName": "Administration",
+    "locationId": 1700,
+    "managerId": 200,
+    "links": [
+        {
+            "href": "10/employees",
+            "rel": "employees",
+            "type" : "GET"
+        }
+    ]
+}
+
+
+In the example above, the server's response includes hypermedia links to employee resources (10/employees), allowing the client to navigate and access employees within a department.
+This approach is beneficial because it allows the server's hypermedia links to dictate the application's state, instead of the application dictating server behavior.
+There isn't a universally accepted standard in JSON for representing links between resources. We can either include these links in the response body or place them in the HTTP response headers.
