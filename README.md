@@ -1,3 +1,3 @@
 This example Ensuring caching - Investigation
 
-A Colaborator is Diego Hidalgo
+Colaborators are Diego Hidalgo and Kevin Guaña
